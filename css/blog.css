@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    overflow: scroll;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 2800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #0E0E0F;
+}
+
+.navbar {
+    background-color: #0E0E0F;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+.navbar-header {
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+    font-family: "Perpetua Titling MT";
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+}
+.navbar-untitle{
+    position: relative;
+    left: -87px;
+    top: 22px;
+}
+
+#home-link, #shop-link, #faq-link, #blog-link, #contact-link{
+    color: white;
+    text-decoration: none;
+    position: static;
+    font-size: 20px;
+}
+
+
+#home-link {
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#shop-link {
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+
+#faq-link {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+#blog-link{
+    position: relative;
+    top: 10px;
+    left: 590px;
+}
+#contact-link{
+    position: relative;
+    top: 10px;
+    left: 710px;
+}
+
+.user{
+    position: relative;
+    left: 950px;
+    top: 10px;
+}
+.cart{
+    position: relative;
+    left: 1020px;
+    top: 10px;
+}
+.angle {
+    position: relative;
+    left: 1090px;
+    top: 8px;
+}
+.all_articles{
+    position: relative;
+    font-family: "Times New Roman";
+    font-weight: lighter;
+    text-align: center;
+    font-size: 40px;
+    top: 100px
+}
+.line {
+    position: relative;
+    top: 107px;
+    width: 200px;
+    align-self: center;
+    background: #ffffff;
+}
+.rectangle-1 {
+    position: relative;
+    background-color: #222223;
+    margin: 70px 100px 70px 100px;
+    left: 180px;
+    top: 100px;
+    height: 581px;
+    width: 1400px;
+}
+.article1{
+    position: absolute;
+    left: 290px;
+    top: 375px;
+    margin: 40px;
+}
+.titleofa1{
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    left: 740px;
+    top: 420px;
+    font-weight: lighter;
+}
+.text1{
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    left: 740px;
+    top: 570px;
+    font-weight: revert;
+}
+.rectangle-2 {
+    position: relative;
+    background-color: #222223;
+    margin: 70px 100px 70px 100px;
+    left: 180px;
+    top: 100px;
+    height: 581px;
+    width: 1400px;
+}
+.article2{
+    position: absolute;
+    left: 1110px;
+    top: 1040px;
+    margin: 40px;
+}
+.titleofa2{
+    position: absolute;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    left: 370px;
+    top: 1080px;
+    font-weight: lighter;
+}
+.text2{
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    left: 370px;
+    top: 1300px;
+    font-weight: lighter;
+}
+.rectangle-3 {
+    position: relative;
+    background-color: #222223;
+    margin: 70px 100px 70px 100px;
+    left: 180px;
+    top: 100px;
+    height: 581px;
+    width: 1400px;
+}
+.article3{
+    position: absolute;
+    left: 290px;
+    top: 1700px;
+    margin: 40px;
+}
+.titleofa3{
+    position: absolute;
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    left: 800px;
+    top: 1750px;
+    font-weight: lighter;
+}
+.text3{
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    left: 800px;
+    top: 1870px;
+    font-weight: lighter;
+}
+.line1{
+    position: relative;
+    top: 120px;
+    left: 500px;
+    width: 970px;
+    background: #ffffff;
+    margin: 5px 0;
+}
+.downnavbar{
+    height: 700px;
+    color: #D5D5D5;
+    background-color: #0E0E0F;
+}
+.oursocial{
+    position: relative;
+    top: 140px;
+    left: 50px;
+    color: white;
+    font-family: "Inter";
+}
+.social{
+    font-size: 30px;
+    position: relative;
+    left:1400px;
+    top: 60px;
+}
+
+.insta{
+    position: relative;
+    top: 140px;
+    left: 1300px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.instaphoto{
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.telega{
+    position: relative;
+    top: 200px;
+    left: 1175px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.telegaphoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+.youtube{
+    position: relative;
+    top: 260px;
+    left: 1057px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.youtubephoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+
+.PAPAR{
+    position: relative;
+    top: 10%;
+    color: white;
+    width: 700px;
+}
+.papara{
+    font-size: 40px;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+.bebeauty{
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+.line2{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 470px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+.texttext{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    left: 180px;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 0.3;
+    font-weight: lighter;
+}
+.own{
+    position: relative;
+    top: -20px;
+    font-family: Inter;
+    color: #ffffff;
+    left: 1040px;
+    font-size: 30px;
+}
+
+.trend{
+    color: #ffffff;
+    position: relative;
+    left: 1040px;
+    font-family: Inter;
+    top: -20px;
+    font-size: 20px;
+}
+.hzhz{
+    color: white;
+    position: relative;
+    left: 965px;
+    top: -3px;
+}
+.find {
+    width: 260px;
+    position: relative;
+    height: 200px;
+}
+
+.angle{
+    cursor: pointer;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.55;
+    }
+}
+
+html, body {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #0E0E0F;
+}
+
+.navbar {
+        background-color: #0E0E0F;
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 3;
+}
+.navbar-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar-title {
+    margin: 0;
+    font-family: "Perpetua Titling MT";
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+}
+.navbar-untitle{
+    position: relative;
+    left: -87px;
+    top: 22px;
+}
+
+#home-link, #shop-link, #faq-link, #blog-link, #contact-link{
+    color: white;
+    text-decoration: none;
+    position: static;
+    font-size: 20px;
+}
+
+
+#home-link {
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#shop-link {
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+
+#faq-link {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+#blog-link{
+    position: relative;
+    top: 10px;
+    left: 590px;
+}
+#contact-link{
+    position: relative;
+    top: 10px;
+    left: 710px;
+}
+.user{
+    position: relative;
+    left: 950px;
+    top: 10px;
+}
+.cart{
+    position: relative;
+    left: 1020px;
+    top: 10px;
+}
+.angle{
+    position: relative;
+    left: 1090px;
+    top: 8px;
+}
+.preview{
+    background-color: #0E0E0F;
+    height: 1800px;
+}
+.preview_img{
+    padding-top: 20px;
+}
+.title1 {
+    position: relative;
+    font-weight: lighter;
+    font-size: 70px;
+    text-align: right;
+    top: -530px;
+    right: 80px;
+}
+.conscious{
+    position: relative;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: right;
+    top: -560px;
+    right: 80px;
+}
+.recent_products{
+    position: relative;
+    font-family: Inter;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 40px;
+    text-align: center;
+    top: -270px;
+}
+.dianamilk{
+    position: relative;
+    left: 80px;
+    top: -250px;
+}
+.lichibag{
+    position: relative;
+    left: 120px;
+    top: -250px;
+}
+.menpng{
+    position: relative;
+    left: 150px;
+    top: -250px;
+}
+.francescopng{
+    position: relative;
+    left: 190px;
+    top: -250px;
+}
+#dianatxt{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -220px;
+    left: 120px;
+}
+#lichitxt{
+    position: relative;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -220px;
+    left: 310px;
+}
+#commedes{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -220px;
+    left: 470px;
+}
+#francesco{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -220px;
+    left: 560px;
+}
+
+.dressesdm{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -270px;
+    left: 210px;
+}
+.lichiacces{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -360px;
+    left: 633px;
+}
+.menswear{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -450px;
+    left: 1080px;
+}
+.bottoms{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 32px;
+    top: -540px;
+    left: 1530px;
+}
+.more{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    font-size: 30px;
+    top: -470px;
+    text-align: center;
+}
+.people_buy{
+    color: black;
+    background-color: white;
+    font-weight: lighter;
+    height: 1250px;
+}
+.people_buy_txt{
+    position: relative;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    top: 50px;
+}
+.essentials{
+    position: relative;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    top: 10px;
+}
+.red_bag{
+    position: relative;
+    width: 670px;
+    height: 860px;
+    top: 30px;
+    left: 150px;
+}
+.red_jacket{
+    position: relative;
+    width: 900px;
+    height: 450px;
+    top: -380px;
+    left: 170px;
+}
+.heels{
+    position: relative;
+    width: 898px;
+    height: 344px;
+    top: -320px;
+    left: 844px;
+}
+#bags_txt{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 30px;
+    top: -1120px;
+    left: -720px;
+}
+#coats_txt{
+    position: relative;
+    font-weight: lighter;
+    color: #D5D5D5;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 30px;
+    top: -1120px;
+    left: -100px;
+}
+#heels_txt{
+    position: relative;
+    font-weight: lighter;
+    color: #83202D;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 30px;
+    top: -600px;
+    left: -200px;
+}
+.downnavbar{
+    height: 900px;
+    color: #D5D5D5;
+    background-color: #0E0E0F;
+}
+.oursocial{
+    position: relative;
+    top: 30px;
+    color: white;
+    font-family: "Inter";
+}
+.social{
+    font-size: 30px;
+    position: relative;
+    left:1400px;
+    top: 50px;
+}
+
+.insta{
+    position: relative;
+    top: 140px;
+    left: 1300px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.instaphoto{
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.telega{
+    position: relative;
+    top: 200px;
+    left: 1175px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.telegaphoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+.youtube{
+    position: relative;
+    top: 260px;
+    left: 1057px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.youtubephoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+
+.PAPAR{
+    position: relative;
+    top: 10%;
+    color: white;
+    width: 700px;
+}
+.papara{
+    font-size: 40px;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+.bebeauty{
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+.line2{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 470px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+.texttext{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    left: 180px;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 0.3;
+    font-weight: lighter;
+}
+.own{
+    position: relative;
+    top: -140px;
+    font-family: Inter;
+    color: #ffffff;
+    left: 1010px;
+    font-size: 30px;
+}
+
+.trend{
+    color: #ffffff;
+    position: relative;
+    left: 1010px;
+    font-family: Inter;
+    top: -130px;
+    font-size: 20px;
+}
+.hzhz{
+    color: white;
+    position: relative;
+    left: 965px;
+    top: -3px;
+}
+.find{
+    width: 260px;
+    position: relative;
+    height: 200px;
+}
+
+.angle{
+    cursor: pointer;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.55;
+    }
+}

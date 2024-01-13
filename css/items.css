@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    background-color: #0E0E0F;
+    overflow-x: hidden;
+}
+
+.container {
+    color: #d7d7d7;
+    position: relative;
+    display: flex;
+    left: 100px;
+    top: 50px;
+}
+
+.filters {
+    margin: 1px;
+    width: 190px;
+    height: 300px;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+
+
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+
+.products {
+    position: relative;
+    width: 1300px;
+    left: 200px;
+}
+
+.comments textarea {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.navbar-l {
+    background-color: #0E0E0F;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.navbar-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+    font-family: "Perpetua Titling MT";
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+}
+
+.navbar-untitle {
+    position: relative;
+    left: -87px;
+    top: 22px;
+}
+
+#home-link, #shop-link, #faq-link, #blog-link, #contact-link{
+    color: white;
+    text-decoration: none;
+    position: static;
+    font-size: 20px;
+}
+
+
+#home-link {
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#shop-link {
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+
+#faq-link {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+#blog-link{
+    position: relative;
+    top: 10px;
+    left: 590px;
+}
+#contact-link{
+    position: relative;
+    top: 10px;
+    left: 710px;
+}
+
+.user{
+    position: relative;
+    left: 950px;
+    top: 10px;
+}
+.cart{
+    position: relative;
+    left: 1020px;
+    top: 10px;
+}
+.angle {
+    position: relative;
+    left: 1090px;
+    top: 8px;
+}
+
+.enlarged-image-container {
+    position: absolute;
+    top: 260px;
+    left: -107px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.comments {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    color: #cccccc;
+    position: absolute;
+    top: 98%;
+    transform: translate(-78%, -47%);
+}
+
+.enlarged-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.enlarged-image {
+    width: 650px;
+    height: 800px;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.back-button {
+    position: absolute;
+    top: -235px;
+    left: 40px;
+    background-color: #656565;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    margin: 5px 0;
+    border-radius: 4px;
+    width: 75px;
+}
+
+.comments{
+    left: 1210px;
+    width: 500px;
+    color: #cccccc;
+}
+
+#commentInput{
+    width: 400px;
+    height: 60px;
+    background-color: #3d3d3d;
+    color: #cccccc;
+    font-size: 15px;
+    font-family: Gallient;
+}
+
+.comments button{
+    border-radius: 4px;
+    width: 100px;
+    text-align: left;
+}
+
+.product-description {
+    position: absolute;
+    top: -250px;
+    left: 820px;
+    width: 500px;
+    background-color: #424242;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.filters button {
+    background-color: #464242;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 75px;
+}
+
+.filters button:hover {
+    background-color: #8c2637;
+}
+
+.oursocial{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: "Inter";
+}
+.social{
+    font-size: 30px;
+    position: relative;
+    left:1400px;
+    top: 50px;
+}
+
+.insta{
+    position: relative;
+    top: 140px;
+    left: 1300px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.instaphoto{
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.telega{
+    position: relative;
+    top: 200px;
+    left: 1175px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.telegaphoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+.youtube{
+    position: relative;
+    top: 260px;
+    left: 1057px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.youtubephoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+
+.PAPAR{
+    position: relative;
+    top: 10%;
+    color: white;
+    width: 700px;
+}
+.papara{
+    font-size: 40px;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+.bebeauty{
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+.line2{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 370px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+.texttext{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    left: 180px;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 0.3;
+    font-weight: lighter;
+}
+
+.trend{
+    color: #ffffff;
+    position: relative;
+    font-family: Inter;
+    font-size: 20px;
+}
+.find{
+    width: 260px;
+    height: 100px;
+    top: -115px;
+    position: relative;
+    font-family: Inter;
+    color: #ffffff;
+    left: 1010px;
+    font-size: 30px;
+}
+
+.downnavbar{
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    top: 1300px;
+    background-color: #0E0E0F;
+    z-index: 3;
+}
+
+#commentsContainer {
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.angle{
+    cursor: pointer;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.58;
+    }
+}
+
+.pagination-container{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.pagination-container button{
+    background-color: rgba(0, 128, 255, 0);
+    color: #cccccc;
+    margin: 5px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}

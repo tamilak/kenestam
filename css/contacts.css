@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    overflow: scroll;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.downnavbar{
+    position: relative;
+    top: 200px;
+    background-color: #000000;
+    height: 700px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 1580px;
+    background-color: #0E0E0F;
+}
+.navbar {
+    background-color: #0E0E0F;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-header {
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+    font-family: "Perpetua Titling MT";
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+}
+.navbar-untitle{
+    position: relative;
+    left: -87px;
+    top: 22px;
+}
+
+#home-link, #shop-link, #faq-link, #blog-link, #contact-link{
+    color: white;
+    text-decoration: none;
+    position: static;
+    font-size: 20px;
+}
+
+
+#home-link {
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#shop-link {
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+
+#faq-link {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+#blog-link{
+    position: relative;
+    top: 10px;
+    left: 590px;
+}
+#contact-link{
+    position: relative;
+    top: 10px;
+    left: 710px;
+}
+
+.user{
+    position: relative;
+    left: 950px;
+    top: 10px;
+}
+.cart{
+    position: relative;
+    left: 1020px;
+    top: 10px;
+}
+.angle{
+    position: relative;
+    left: 1090px;
+    top: 8px;
+}
+.podium{
+    padding-top: 20px;
+}
+.hereforyou{
+    position: absolute;
+    color: white;
+    top: 380px;
+    left: 700px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.oursocial{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: "Inter";
+}
+.social{
+    font-size: 30px;
+    position: relative;
+    left:1400px;
+    top: 50px;
+}
+
+.insta{
+    position: relative;
+    top: 140px;
+    left: 1300px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.instaphoto{
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.telega{
+    position: relative;
+    top: 200px;
+    left: 1175px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.telegaphoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+.youtube{
+    position: relative;
+    top: 260px;
+    left: 1057px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.youtubephoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+
+.PAPAR{
+    position: relative;
+    top: 10%;
+    color: white;
+    width: 700px;
+}
+.papara{
+    font-size: 40px;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+.bebeauty{
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+.line2{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 370px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+.texttext{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    left: 180px;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 0.3;
+    font-weight: lighter;
+}
+
+.trend{
+    color: #ffffff;
+    position: relative;
+    font-family: Inter;
+    font-size: 20px;
+    width: 200px;
+}
+.find{
+    height: 100px;
+    width: 200px;
+    top: -115px;
+    position: relative;
+    font-family: Inter;
+    color: #ffffff;
+    left: 1010px;
+    font-size: 30px;
+}
+
+#service{
+    line-height: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 8.2%;
+    left: 12%;
+}
+
+#between{
+    position: relative;
+    top: 65px;
+    width: 170px;
+    transform: rotate(90deg);
+}
+
+#contact{
+    line-height: 35px;
+    font-size: 25px;
+    position: relative;
+    top: 0.5%;
+    left: 65%;
+}
+
+#weglad{
+    line-height: 35px;
+    font-size: 20px;
+    position: relative;
+    top: 1%;
+    left: 65%;
+}
+
+.angle{
+    cursor: pointer;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.82;
+    }
+}

@@ -1,0 +1,159 @@
+body{
+    color: #cccccc;
+ background-color: #0E0E0F;
+    overflow-x: hidden;
+}
+
+.register-back{
+    width: 400px;
+    left: 760px;
+    top: 43%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+label{
+    background-color: #232323;
+    width: 100px;
+    display: inline-block;
+    padding: 4px 5px;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Calibri;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+input{
+    background-color: #c4c2c2;
+    width: 250px;
+    height: 17px;
+    display: inline-block;
+    padding: 6px 3px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Calibri;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.reg{
+    user-select: none;
+    position: absolute;
+    top: -360px;
+    left: 50%;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    font-family: Gallient;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    z-index: 3;
+    mix-blend-mode: difference;
+}
+
+.backimg3{
+}
+
+#registerForm{
+    z-index: 2;
+}
+
+button{
+    background-color: #464242;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    top: 10px;
+    left: 27px;
+    position: relative;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Calibri;
+}
+
+#login{
+    position: relative;
+    color: #9a3131;
+    text-decoration: none;
+    font-size: 22px;
+    left: 10px;
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+}
+
+.already{
+    position: relative;
+    font-size: 20px;
+    left: 50px;
+}
+
+.error {
+    color: #731414;
+}
+
+#fname, #lname, #firstName, #lastName{
+    position: relative;
+    top: -5px;
+}
+
+#passwordaagain{
+    line-height: 15px;
+}
+
+#confirmPassword{
+    position: relative;
+    top: -68px;
+}
+
+.optional{
+    position: relative;
+    top: -33px;
+    left: 60px;
+    color: #9a3131;
+    font-size: 20px;
+}
+
+#sing1{
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+#sing1:hover{
+    background-color: #621f1f;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.82;
+    }
+}
+
+#avatar{
+    height: 40px;
+    position: relative;
+    top: -6px;
+    left: 2px;
+}
+
+#avatarr{
+    position: relative;
+    top: -6px;
+    left: 2px;
+}

@@ -1,0 +1,478 @@
+body{
+    background-color: #0E0E0F;
+    color: #cccccc;
+    overflow-x: hidden;
+}
+
+.navbar-l {
+    background-color: #0E0E0F;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+.navbar-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin: 0;
+    font-family: "Perpetua Titling MT";
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+}
+.navbar-untitle{
+    position: relative;
+    left: -87px;
+    top: 22px;
+}
+
+#home-link, #shop-link, #faq-link, #blog-link, #contact-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#home-link {
+    position: relative;
+    top: 10%;
+    left: 230px;
+}
+
+#shop-link {
+    position: relative;
+    top: 10%;
+    left: 350px;
+}
+
+#faq-link {
+    position: relative;
+    top: 10%;
+    left: 470px;
+}
+#blog-link{
+    position: relative;
+    top: 10%;
+    left: 590px;
+}
+#contact-link{
+    position: relative;
+    top: 10%;
+    left: 710px;
+}
+
+.user{
+    position: relative;
+    left: 950px;
+    top: 10px;
+}
+.cart{
+    position: relative;
+    left: 1020px;
+    top: 10px;
+}
+.angle {
+    position: relative;
+    left: 1090px;
+    top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.myAcc{
+    font-size: 40px;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    top: 170px;
+    left: 840px;
+}
+
+.lineacc{
+    position: relative;
+    width: 600px;
+    top: 190px;
+}
+
+#login{
+    position: relative;
+    top: 270px;
+    left: 1050px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.account{
+    font-size: 30px;
+    position: absolute;top: 400px;
+    left: 1060px;
+
+}
+
+.personal{
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+    left: 680px;
+}
+
+#l1{
+    width: 200px;
+    position: absolute;
+    top: 522px;
+    left: 1055px;
+}
+
+#email{
+    position: relative;
+    top: 290px;
+    left: 1050px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#l2{
+    width: 200px;
+    position: absolute;
+    top: 640px;
+    left: 1055px;
+}
+#name{
+    position: relative;
+    top: 80px;
+    left: 670px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#l3{
+    width: 200px;
+    position: absolute;
+    top: 525px;
+    left: 675px;
+}
+
+#lname{
+    position: relative;
+    top: 94px;
+    left: 670px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#l4{
+    width: 200px;
+    position: absolute;
+    top: 640px;
+    left: 675px;
+}
+
+#dob{
+    position: relative;
+    top: 74px;
+    left: 670px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#l5{
+    width: 200px;
+    position: absolute;
+    top: 748px;
+    left: 675px;
+}
+
+.warning {
+    display: none;
+    width: 100px;
+    user-select: none;
+}
+
+#newlogin{
+    background-color: #464242;
+    width: 100px;
+    display: inline-block;
+    padding: 5px 3px;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Calibri;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#new_username{
+    position: absolute;
+    width: 195px;
+    top: 535px;
+    left: 1056px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+input {
+    font-family: "Calibri Light";
+}
+
+#new_email{
+    position: absolute;
+    width: 195px;
+    top: 652px;
+    left: 1056px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+#new_password{
+    position: absolute;
+    width: 195px;
+    top: 759px;
+    left: 1056px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+#new_dob{
+    position: absolute;
+    width: 195px;
+    top: 538px;
+    left: 675px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+#new_first_name{
+    position: absolute;
+    width: 195px;
+    top: 653px;
+    left: 675px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+#new_last_name{
+    position: absolute;
+    width: 195px;
+    top: 765px;
+    left: 675px;
+    font-size: 19px;
+    background-color: #464242;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+#newpasw{
+    position: absolute;
+    width: 195px;
+    top: 729px;
+    left: 1056px;
+    font-size: 21px;
+    color: #cccccc;
+    border: none;
+    border-radius: 3px;
+}
+
+button{
+    color: #cccccc;
+    position: absolute;
+    top: 90%;
+    left: 34.5%;
+    background-color: #4f4f4f;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-family: "Perpetua Titling MT", serif;
+}
+
+button:hover {
+    background-color: #490b0d;
+}
+
+#logout{
+    color: #cccccc;
+    position: absolute;
+    top: 90%;
+    left: 54.5%;
+    background-color: #4f4f4f;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-family: "Perpetua Titling MT", serif;
+}
+
+#logout:hover {
+    background-color: #490b0d;
+}
+
+.downnavbar{
+    position: relative;
+    width: 100%;
+    height: 510px;
+    top: 450px;
+    background-color: #0E0E0F;
+}
+
+.oursocial{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-family: "Inter";
+}
+.social{
+    font-size: 30px;
+    position: relative;
+    left:1400px;
+    top: 50px;
+}
+
+.insta{
+    position: relative;
+    top: 140px;
+    left: 1300px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.instaphoto{
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.telega{
+    position: relative;
+    top: 200px;
+    left: 1175px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.telegaphoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+.youtube{
+    position: relative;
+    top: 260px;
+    left: 1057px;
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-decoration: none;
+}
+.youtubephoto{
+    position: relative;
+    top: 12px;
+    left: -34px;
+}
+
+.PAPAR{
+    position: relative;
+    top: 10%;
+    color: white;
+    width: 700px;
+}
+.papara{
+    font-size: 40px;
+    position: relative;
+    left: 180px;
+    top: 1px;
+}
+.bebeauty{
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+.line2{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 370px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+.texttext{
+    position: relative;
+    top: 80px;
+    text-align: left;
+    left: 180px;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 0.3;
+    font-weight: lighter;
+}
+
+.trend{
+    color: #ffffff;
+    position: relative;
+    font-family: Inter;
+    font-size: 20px;
+}
+.find{
+    height: 100px;
+    width: 260px;
+    top: -115px;
+    position: relative;
+    font-family: Inter;
+    color: #ffffff;
+    left: 1010px;
+    font-size: 30px;
+}
+
+.angle{
+    cursor: pointer;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 5mm;
+    }
+
+    body {
+        zoom: 0.82;
+    }
+}

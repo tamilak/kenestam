@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    background-color: #0E0E0F;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.products {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.comments {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.order{
+    user-select: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-family: Gallient;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    z-index: 3;
+    mix-blend-mode: difference;
+}
+
+#cartItems{
+    color: #cccccc;
+    position: absolute;
+    padding: 15px;
+    top: 37%;
+    left: 20%;
+    background-color: #333333;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 10px;
+    font-size: 20px;
+    font-family: "Perpetua Titling MT", serif;
+}
+
+#cartItems .cart-item {
+    margin-bottom: 40px;
+}
+
+.total {
+    color: #cccccc;
+    position: absolute;
+    padding: 15px;
+    top: 35.2%;
+    left: 42%;
+    background-color: #333333;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 40px;
+    font-family: "Perpetua Titling MT", serif;
+}
+
+button{
+    color: #cccccc;
+    position: absolute;
+    padding: 15px;
+    top: 52%;
+    left: 42%;
+    background-color: #752c2c;
+    width: 280px;
+    height: 70px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-family: "Perpetua Titling MT", serif;
+}
+
+button:hover {
+    background-color: #490b0d;
+}
+
+.vec{
+    position: absolute;
+    user-select: none;
+    left: -100px;
+    top: 80px;
+}
+
+#main{
+color: #cccccc;
+    position: absolute;
+    padding: 15px;
+    top: 61%;
+    left: 42%;
+    background-color: #752c2c;
+    width: 280px;
+    height: 70px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-family: "Perpetua Titling MT", serif;
+}
+#main:hover{
+    background-color: #490b0d;
+}
+
+.time{
+    background-color: #490b0d;
+    position: absolute;
+    top: 36.8%;
+    left: 64%;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    color: #cccccc;
+    font-family: Gallient;
+}
+
+.days{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 6%;
+}
+
+.date{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 6%;
+}
+.times{
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    font-family: "Times New Roman";
+}
